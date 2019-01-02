@@ -1,15 +1,12 @@
 package com.actitime.rough;
 
-import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.interactions.Actions;
-import org.testng.annotations.Test;
-
 import com.actitime.all_test_scripts.SuperTestScript;
 
 public class RoughPage extends SuperTestScript
 {
 
-	@Test(expectedExceptions = TimeoutException.class)
+	
 	public void testRoughPage()
 	{
 	

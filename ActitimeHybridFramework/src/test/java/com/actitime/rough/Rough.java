@@ -12,13 +12,11 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.Test;
-
 import com.actitime.all_test_scripts.SuperTestScript;
 
 public class Rough extends SuperTestScript
 {
-	@Test
+	
 	public void takesScreenshot() throws Exception
 	{
 		PDFTextStripper stripper = new PDFTextStripper();
